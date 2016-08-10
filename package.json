@@ -1,0 +1,29 @@
+{
+  "name": "scale-recipe",
+  "version": "1.0.0",
+  "description": "Scales ingredients in a recipe.",
+  "main": "recipe.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rviscomi/scale-recipe.git"
+  },
+  "author": "Rick Viscomi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rviscomi/scale-recipe/issues"
+  },
+  "homepage": "https://github.com/rviscomi/scale-recipe#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.2",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2"
+  }
+}
