@@ -31,14 +31,16 @@
           Here's a sample recipe to show the scaling in action.
         </p>
 
-        <h2>Serves 4</h2>
+        <section id="recipe">
+          <h2>Serves 4</h2>
 
-        <ul>
-          <li>4 eggs</li>
-          <li>4 cups flour</li>
-          <li>1/4 cup olive oil</li>
-          <li>1 tablespoon salt</li>
-        </ul>
+          <ul>
+            <li>4 eggs</li>
+            <li>4 cups flour</li>
+            <li>1/4 cup olive oil</li>
+            <li>1 tablespoon salt</li>
+          </ul>
+        </section>
 
         <h1><a href="tests/index.html">Tests</a></h1>
       </section>
@@ -48,6 +50,8 @@
       <p>Project maintained by <a href="https://github.com/rviscomi">rviscomi</a></p>
     </footer>
 
+    <script src="recipe.js"></script>
+    <script>recipe.init(document.getElementById('recipe'))</script>
     <script src="javascripts/scale.fix.js"></script>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
   </body>
