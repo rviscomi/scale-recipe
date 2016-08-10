@@ -2,7 +2,8 @@ language: node_js
   - 0.10
 install:
   - npm install
-script: node_modules/karma/bin/karma start my.conf.js --single-run
+script:
+  - npm test
 before_install:
   - export CHROME_BIN=chromium-browser
   - export DISPLAY=:99.0
