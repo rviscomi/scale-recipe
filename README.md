@@ -8,4 +8,4 @@ https://rviscomi.github.io/scale-recipe/
 
 ## Tests
 
-https://rviscomi.github.io/scale-recipe/tests/
+https://rviscomi.github.io/scale-recipe/tests/index.html
